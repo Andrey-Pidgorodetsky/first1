@@ -5,5 +5,9 @@ bag-fix(master)
 
 new text user2
 
+<<<<<<< HEAD
 
 critical bag fix
+=======
+new feature
+>>>>>>> user2

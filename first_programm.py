@@ -7,4 +7,4 @@ def art():
     else:
         print("You young")
 art()
-art()
+

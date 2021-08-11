@@ -1,3 +1,4 @@
+
 #print(None)
 #try:
 #    print(len(22))
@@ -30,3 +31,13 @@ def oshibki(x, y):
 first=int(input("enter first number "))
 last=int(input('enter last number'))
 print(oshibki(first, last))
+
+print (None)
+try:
+    print(len(22))
+    print("my_fun")
+except TypeError:
+    print("TypeError")
+
+
+

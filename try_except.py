@@ -21,6 +21,8 @@ def oshibki(x, y):
         return x/y
     except ZeroDivisionError:
         print('You cannot divide by zero')
+    except ValueError:
+        print('You cannot divide by zero')
     except TypeError:
         print('Its must be numbers')
     else:
@@ -32,12 +34,12 @@ first=int(input("enter first number "))
 last=int(input('enter last number'))
 print(oshibki(first, last))
 
-print (None)
-try:
-    print(len(22))
-    print("my_fun")
-except TypeError:
-    print("TypeError")
+# print (None)
+# try:
+#     print(len(22))
+#     print("my_fun")
+# except TypeError:
+#     print("TypeError")
 
 
 

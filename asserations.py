@@ -18,4 +18,4 @@ def get_access (password):
     assert int(password) in password_list , 'Password is invalid'
     print("Access done")
 
-get_access(111)
+get_access(1111)

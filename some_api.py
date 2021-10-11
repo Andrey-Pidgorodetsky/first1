@@ -6,7 +6,6 @@
 # data=res.json()
 # print(data['features'][0]['properties']["place"])
 
-
 import requests
 
 url='https://earthquake.usgs.gov/fdsnws/event/1/query?'

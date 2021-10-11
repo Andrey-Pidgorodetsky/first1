@@ -40,6 +40,4 @@ for earthquake in earthquake_list:
     # print(f"{count}.Place:{earthquake['properties']['place']}.")
     magnitude_list.append((earthquake['properties']['place'], earthquake['properties']['mag']))
 
-
-
 save_earthquake(magnitude_list)
